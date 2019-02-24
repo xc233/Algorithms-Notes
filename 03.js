@@ -19,7 +19,3 @@ function swap (nums, i , j){
     nums[i] = nums[j];
     nums[j] = t;
 }
-
-module.exports = {
-    duplicate : duplicate
-};
