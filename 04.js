@@ -1,11 +1,3 @@
-let target = 32;
-let matrix = [
-    [1,   4,  7, 11, 15],
-    [2,   5,  8, 12, 19],
-    [3,   6,  9, 16, 22],
-    [10, 13, 14, 17, 24],
-    [18, 21, 23, 26, 30]
-  ];
 function Find(target , matrix) {
     if(matrix == null || matrix.length == 0 || matrix[0].length == 0)
         return false;
@@ -27,4 +19,13 @@ function Find(target , matrix) {
     //console.log("no find");
     return false;
 }
-Find (target,matrix);
+
+let target = 9;
+let matrix = [
+    [1,   4,  7, 11, 15],
+    [2,   5,  8, 12, 19],
+    [3,   6,  9, 16, 22],
+    [10, 13, 14, 17, 24],
+    [18, 21, 23, 26, 30]
+  ];
+console.log(Find (target,matrix));
